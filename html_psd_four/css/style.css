@@ -1,0 +1,65 @@
+header{
+  border-bottom: 1px solid#000;
+}
+
+.bg-custom{
+    background-color: #232425 !important; 
+}
+.logo{
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    color: gray;
+}
+.logo::first-letter{
+    font-size: 40px;
+}
+.side-text{
+    
+    font-size: 12px;
+    border-left: 1px gray solid;
+  
+}
+
+#slider img {
+  max-height: 470px;
+  width: 100%;
+}
+
+#mainFooter{
+  border-top: 10px lightgrey solid;
+}
+#footer-bottom{
+  height: 60px;
+  line-height: 60px;
+}
+
+@media (min-width: 576px) {
+  .navbar-dark .navbar-nav .nav-link:hover{
+    color: crimson;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-dark .navbar-nav .nav-link{
+    height: 120px;
+    line-height: 120px;
+    padding-top: 0;
+    padding-bottom: 0;
+  
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover{
+    background-color: crimson;
+    color: white;
+  }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
