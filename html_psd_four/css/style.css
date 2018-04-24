@@ -34,9 +34,10 @@ header{
   line-height: 60px;
 }
 
+
 @media (min-width: 576px) {
   .navbar-dark .navbar-nav .nav-link:hover{
-    color: crimson;
+    color: #dc3545!important;
   }
 }
 
@@ -50,7 +51,7 @@ header{
   }
   
   .navbar-dark .navbar-nav .nav-link:hover{
-    background-color: crimson;
+    background-color: #dc3545!important;
     color: white;
   }
 }
