@@ -16,7 +16,7 @@
 <body>
     <!-- Header Navbar -->
 
-    <div class="outer-container bg-white ">
+    <div id="header" class="outer-container bg-white ">
         <header class="bg-custom pb-5 ">
             <nav class="navbar navbar-expand-md navbar-light pb-5 pt-3 ">
                 <a class="navbar-brand " href="#">
@@ -180,7 +180,7 @@
                 <div class="circle-button bg-dark float-left mr-2 "></div>
                 <div class="circle-button bg-dark float-left mr-2 "></div>
                 <div class="circle-button bg-dark float-left mr-2 "></div>
-                <div class="bg-danger float-right circle-button text-center text-white">
+                <div id="scrollToTop" class="bg-danger float-right circle-button text-center text-white">
                     <i class="fa fa-arrow-up align-middle"></i>
                 </div>
             </div>
@@ -263,7 +263,7 @@
 
             </div>
             <div class="container border-top border-white" id="footer-bottom">
-                   <p class="text-muted ">Copyright &copy; 2013 - All Rights Reserved - Domain Name</p> 
+                <p class="text-muted ">Copyright &copy; 2013 - All Rights Reserved - Domain Name</p>
             </div>
 
         </footer>
@@ -277,13 +277,26 @@
 
 
 
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script src="js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+
+
+    <script>
+        $("#scrollToTop").on('click', function () {
+            // $('html, body').scrollTop($("#header").offset().top);
+            $('html, body').animate({
+                scrollTop: ($('#header').offset().top)
+            }, 1000)
+            // , function () {
+            //     $('html, body').animate({
+            //     scrollTop: ($('#mainFooter').offset().top)},1000);
+            // });
+        });
+    </script>
 </body>
 
 </html>
