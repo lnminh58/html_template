@@ -8,7 +8,9 @@
 .bg-header{
   background-color: rgba(60, 11, 66, 0.7);
 }
-
+.navbar-brand{
+  font-size: 30px;
+}
 #slider img{
   max-height: 500px;
   width: 100%;

@@ -1,0 +1,78 @@
+$primary-color: #dc3545;
+$shadow-color:rgb(27, 27, 27);
+$base-color: rgb(14, 49, 63);
+$icon-size:60px;
+.parent {
+    overflow: hidden;
+}
+
+.bg-base {
+    background: linear-gradient(60deg, rgb(134, 207, 209), rgb(193, 255, 206));
+}
+.bg-side{
+    background: linear-gradient(45deg, $base-color,rgb(28, 66, 73),$base-color);
+}
+.b-title,
+.side-shadow {
+    box-shadow: 0px 0px 15px $shadow-color;
+}
+#portraitName{
+    nav{
+        .nav-link{
+            color: rgb(215, 215, 215) !important;
+            text-transform: uppercase;
+            
+        }
+        .active{
+            background: rgb(17, 74, 97);
+        }
+    }
+   
+}
+
+
+
+// .progress{
+//     background-color: $base-color;
+// }
+#info {
+    #contact {
+        .b-title {
+            background-color: #dd5566;
+        }
+    }
+    #languages {
+        .b-title {
+            background-color: #dd7755;
+        }
+    }
+    #skills {
+        .b-title {
+            background-color: #33aaaa;
+        }
+    }
+    #hobbies {
+        .b-title {
+            background-color: #ddbb33;
+        }
+    }
+}
+
+#detailInfo {
+    .fa {
+        font-size: $icon-size;
+    }
+}
+
+#project{
+    img{
+       max-height: 200px;
+    }
+}
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}

@@ -1,0 +1,50 @@
+.parent {
+  overflow: hidden;
+}
+
+.bg-base {
+  background: linear-gradient(60deg, #86cfd1, #c1ffce);
+}
+
+.bg-side {
+  background: linear-gradient(45deg, #0e313f, #1c4249, #0e313f);
+}
+
+.b-title,
+.side-shadow {
+  box-shadow: 0px 0px 15px #1b1b1b;
+}
+
+#portraitName nav .nav-link {
+  color: #d7d7d7 !important;
+  text-transform: uppercase;
+}
+
+#portraitName nav .active {
+  background: #114a61;
+}
+
+#info #contact .b-title {
+  background-color: #dd5566;
+}
+
+#info #languages .b-title {
+  background-color: #dd7755;
+}
+
+#info #skills .b-title {
+  background-color: #33aaaa;
+}
+
+#info #hobbies .b-title {
+  background-color: #ddbb33;
+}
+
+#detailInfo .fa {
+  font-size: 60px;
+}
+
+#project img {
+  max-height: 200px;
+}
+/*# sourceMappingURL=style.css.map */
