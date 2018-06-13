@@ -1,6 +1,6 @@
 $header-main-color: #003d61;
 $header-extra-color: #009966;
-$hover-color:#009966;
+// $hover-color:#009966;
 $menu-main-color: #0e5464;
 $menu-extra-color:#136588;
 $shadow-color: #328d92;
@@ -9,9 +9,7 @@ $border-color: #103642;
     background: linear-gradient(90deg, $header-main-color, $header-extra-color);
 }
 
-.parent {
-    overflow: hidden;
-}
+
 
 .header {
     box-shadow: 0px 4px 5px 2px $shadow-color;
@@ -34,7 +32,7 @@ $border-color: #103642;
     
     .active {
         background: $menu-extra-color;
-        border-left: $border-color 5px solid;
+        border-left: $border-color 7px solid;
     }
    
 }

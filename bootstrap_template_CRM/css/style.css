@@ -2,10 +2,6 @@
   background: linear-gradient(90deg, #003d61, #009966);
 }
 
-.parent {
-  overflow: hidden;
-}
-
 .header {
   box-shadow: 0px 4px 5px 2px #328d92;
 }
@@ -25,7 +21,7 @@
 
 .sidebar .active {
   background: #136588;
-  border-left: #103642 5px solid;
+  border-left: #103642 7px solid;
 }
 
 .bg-menu {
